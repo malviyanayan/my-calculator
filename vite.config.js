@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/my-calculator/',  // 👈 yeh line bahut important hai
+  base: '/my-calculator/',
   plugins: [react()],
 })
