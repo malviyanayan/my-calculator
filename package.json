@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://malviyanayan.github.io/my-calculator",
     "predeploy": "npm run build",
+    "homepage": "https://malviyanayan.github.io/my-calculator",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
