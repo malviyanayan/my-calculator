@@ -1,0 +1,13 @@
+.myButton {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.myButton:hover {
+  background-color: #f0f0f0; /* light gray highlight */
+}
+
+/* Clicking effect */
+.myButton:active {
+  transform: scale(0.96); /* small shrink on click */
+}

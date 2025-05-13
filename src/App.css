@@ -1,0 +1,29 @@
+.calculator{
+  width: 45%;
+  height: max-content;
+}
+
+@media (max-width: 900px) {
+  .calculator {
+    width: 55%;
+  }
+}
+
+@media (max-width: 600px) {
+  .calculator {
+    width: 70%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .calculator {
+    width: 85%;
+  }
+}
+
+@media (max-width: 300px) {
+  .calculator {
+    width: 95%;
+  }
+}
